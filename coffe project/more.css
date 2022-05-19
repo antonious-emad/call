@@ -1,0 +1,120 @@
+body{
+    position: relative;
+    /*background-image: url(pofe.jpg);*/
+    background-color: rgba(0, 0, 0);
+    background-size: contain;
+    background-repeat: repeat-y;
+    width: 100rem;
+    height: 100rem;
+    background-attachment: scroll;
+    font-family: cursive;
+}
+div{
+    list-style: none;
+    display: block;
+    color:rgb(174, 136, 94);
+    color: rgb(240, 238, 238);
+   color: rgba(78, 78, 110, 0.7);
+    text-shadow:0px 0px 5px rgba(38, 20, 8, 0.623);
+    font-family: cursive;
+    font-size: 3rem; 
+    text-align: center;
+    padding-top: 25vh;
+}  
+ 
+.review .slide{
+    padding:2rem;
+    box-shadow:var(--box-shadow);
+    border:.1rem solid rgba(0,0,0,.2);
+    border-radius: .5rem;
+    position: relative;    
+}
+
+.review .slide .fa-quote-right{
+    position: absolute;
+    top:2rem; right:2rem;
+    font-size: 6rem;
+    color:#ccc;
+}
+
+.review .slide .user{
+    display: flex;
+    gap:1.5rem;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.review .slide .user img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .slide .user h3{
+    color:var(--black);
+    font-size: 2rem;
+    padding-bottom: .5rem;
+}
+
+.review .slide .user i{
+    font-size: 1.3rem;
+    color:var(--green);
+}
+
+.review .slide p{
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color:var(--light-color);
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+td:hover{
+    border-radius:20px;
+    background-color: rgba(210, 105, 30, 0.481);
+    width: fit-content;
+    color: rgb(219, 216, 216);
+    transition-duration: 2s;
+    border-radius: 70% 10% 70% 10%;
+}
+
+.nav table{
+    background-color: rgba(0, 0, 0, 0.597);
+    margin-bottom: 0px;
+    position: fixed;
+    display: inline;
+    top: 0px;
+    left: 0vw;
+    padding-left: 10%;
+    width:100rem;
+    height: fit-content;
+   /*color:rgb(174, 136, 94);*/
+    color: rgb(219, 216, 216);
+   /*color: rgba(78, 78, 110, 0.7);*/
+    text-shadow:0px 0px 5px rgba(38, 20, 8, 0.623);
+    font-family: cursive;
+    font-size: 1.3rem; 
+    cursor: pointer;
+}
+table td{
+    padding: 10px;
+
+}
+a{
+    text-decoration: none;
+    color:white;}
+footer div{
+    height:fit-content ;
+    border: 1px solid rgba(210, 105, 30, 0.481);
+   display: inline-block;
+   color: #ccc;
+   margin-bottom: 20px;
+}
+#review{
+    margin-top: 70%;
+}
+#review td:hover{
+    background-color: black;
+}

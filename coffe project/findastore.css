@@ -1,0 +1,198 @@
+body{
+    position: relative;
+   /* background-image: url(pofe.jpg);*/
+    background-color: rgba(0, 0, 0, 0.912);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100rem;
+    height: 100rem;
+   /* background-attachment: fixed;*/
+    font-family: cursive;
+}
+ div{
+    position: sticky;
+    list-style: none;
+    display: block;
+    /*color:rgb(174, 136, 94);*/
+    color: rgb(240, 238, 238);
+   /*color: rgba(78, 78, 110, 0.7);*/
+   /* text-shadow:0px 0px 5px rgba(38, 20, 8, 0.623);*/
+    font-family: cursive;
+    font-size: 3rem; 
+    text-align: center;
+    padding-top: 25vh;
+} 
+
+td:hover{
+    border-radius:20px;
+    background-color: rgba(210, 105, 30, 0.481);
+    width: fit-content;
+    color: rgb(219, 216, 216);
+    transition-duration: 2s;
+    border-radius: 70% 10% 70% 10%;
+}
+
+.nav table{
+    background-color: rgba(0, 0, 0, 0.597);
+    margin-bottom: 0px;
+    position: fixed;
+    display: inline;
+    top: 0px;
+    left: 0vw;
+    padding-left: 10%;
+    width:100rem;
+    height: fit-content;
+   /*color:rgb(174, 136, 94);*/
+    color: rgb(219, 216, 216);
+   /*color: rgba(78, 78, 110, 0.7);*/
+    text-shadow:0px 0px 5px rgba(38, 20, 8, 0.623);
+    font-family: cursive;
+    font-size: 1.3rem; 
+    cursor: pointer;
+}
+table td{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.Aboutus{
+    background-image: url(sig.jpg);
+    margin: -190px;
+    height: 100rem;
+    width: 100rem;
+    background-size:contain; 
+     ; background-repeat: no-repeat;   
+  /* background-attachment:fixed;*/
+}
+i{
+    
+    position: absolute;
+    text-align: center;
+    top:20rem;
+    left:22.5rem;
+    color:antiquewhite;
+}
+
+.social{
+margin-top: 1%;
+left:88rem;
+width: 20rem;
+height:12vh;
+position: relative;
+/*top: -35.5rem;*/
+top:-89.2rem;
+margin-right: 0px;
+background-color: black;
+
+}
+.social a{
+    background-color: rgba(0, 0, 0, 0.597);
+    display: block;
+    height: 12vh;
+    padding:5% 50% 29% 50%;
+}
+.social a:hover{
+    background-color: black;
+    display: block;
+    height: 12vh;
+    padding: 5%  20%;
+    font-size:7rem;
+    transition-duration: 2s;
+    border-radius: 50%;
+    height: max-content;
+}
+.fs{
+    background-color:black;
+    position: absolute;
+    top:55.3rem;
+    width: 108rem;
+    height:50rem;
+}
+.fs iframe{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0%;
+    border: 0px;
+}
+.fs p{
+    position: absolute;
+    height: 100%;
+    right:27% ;
+    text-align: center;
+    font-style: italic;
+}
+.cs{
+background-color: black;
+position: absolute;
+top:106rem;
+height: 100%;
+width: 108rem;
+height: 57rem;
+}
+.cs img{
+    position: absolute;
+    top: 0rem;
+    left: 0%;
+    background-size: cover;
+    width: 40rem;
+    height: 57rem;
+    background-position: center;
+}
+.cs textarea{
+    background-color: black;
+    padding-top: 1% ;
+    padding-left:1%;
+    top:70%;
+    position: absolute;
+    left: 40.5rem;
+    width:53%;
+    height: 10%;
+    color: chocolate;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: cursive;
+    border:2px solid rgba(210, 105, 30, 0.481);
+    border-radius: 100px 20px;
+    padding-left: 30px;
+    
+
+}
+.cs textarea:focus{
+    outline: 0px;
+}
+
+.cs input{
+    position: absolute;
+    top: 25%;
+    left: 40.5rem;
+    background-color: black;
+    width:25%;
+    height: 5%;
+    border:2px solid rgba(210, 105, 30, 0.481);
+   border-radius: 100px 20px;
+    padding-left: 20px;
+    color: chocolate;
+}
+input:focus{
+    outline: 0px;
+    color: chocolate;
+    font-size: 2.5rem;
+}
+.cs p{
+    position: absolute;
+    top:0%;
+    left: 60.5rem;
+    color: rgba(210, 105, 30, 0.481);
+    font-style: italic;
+    font-size: 4rem;
+}
+#b{
+    color:rgba(210, 105, 30, 0.481);
+    font-size: 4rem;
+    border-radius:40px 2px;
+    width: fit-content;
+    height: fit-content;
+}

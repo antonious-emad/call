@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call Cafe</title>
+    <link rel="stylesheet" href="coffe.css">
+
+    <style>
+body{
+    background-image: url(sig.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    width:10rem;
+    height:54rem;
+    font-family: cursive;
+    position: relative;
+}
+div:not(p){
+    padding-left: 50px;
+    position: absolute;
+    top:0%;
+    left:35vw;
+    right: 40vw;
+    bottom: 0%;
+   /* background-color:rgba(132, 134, 135, 0.578);*/
+   background-color: rgba(0, 0, 0, 0.538);
+    font-family: cursive;
+    color: white;
+    width: fit-content;
+    height:fit-content;
+    border-radius: 20px;
+    object-fit: cover;
+}
+input,input:hover{
+    display: block;
+    margin-right: 70px;
+    background-color: rgba(0, 0, 0, 0.538);
+    border-radius:9999px ;
+    border: 1px solid rgba(255, 255, 255, 0.481);
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 60px;
+    text-align: left;
+    color: white;
+    font-weight: 700;
+    padding-left:20px;
+}
+input:focus{
+    outline:rgba(255, 255, 255, 0.481) solid 0px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+a{
+    text-decoration: none;
+   
+}
+@media(max-width:300px) {
+    body{
+    background-image: url(sig.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    width:10rem;
+    height:54rem;
+    font-family: cursive;
+    position: relative;
+}
+div:not(p){
+    padding-left: 50px;
+    position: absolute;
+    top:0%;
+    left:0vw;
+    right: 40vw;
+    bottom: 0%;
+   /* background-color:rgba(132, 134, 135, 0.578);*/
+   background-color: rgba(0, 0, 0, 0.538);
+    font-family: cursive;
+    color: white;
+    width: fit-content;
+    height:fit-content;
+    border-radius: 20px;
+    object-fit: cover;
+}
+}
+
+    </style>
+</head>
+<body>
+    <div >
+        <form action="form.php" target="_blank" onsubmit="window.location.href = 'coffe.html';" method="get">
+        <img src="hotcoffes.jpg" width="40px" height="40px"  style="border-radius: 50%; position: absolute;top:3vw;left:45%;  ;"> 
+        <!-- <p style="text-align: center; font-size: 1.55rem; padding-top: 30px;font-weight: 900; color: #eee; margin-left: 120px;">Login</p> -->
+        <p style="text-align: center;font-size: 1.75rem;color:#eee; margin-left: 85px;margin-top: -90px;margin-bottom: 10px ;background-color: rgba(210, 105, 30, 0.481); border-radius: 50% 5%;width: max-content; height: max-content;">CallCafe</p>
+
+        <select style="width: 224px; height: 64px;margin-top: 5px;margin-left: -50px;border-radius: 9999px; border-color: inherit;    background-color: rgba(0, 0, 0, 0.5);color: rgba(255, 255, 255, 0.481); padding: 20px;
+        " >
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+
+        </select>
+        <input type="text" vlaue="FirstName"  placeholder="First Name" required>
+        <input type="text" vlaue="LastName"  placeholder="Last Name" required >
+        <input type="email" vlaue="email"  placeholder="email address" required > 
+        <input type="text" placeholder="password" pattern="[A-Z]{1}(?=.*[a-z A-Z 0-9 !@#$%^&*]).{7}"title="start by capital letter  containing special character and number " required>
+        <input type="tel"  placeholder="phone number" pattern="[0-9]{11}" required>
+        <input type="text" placeholder="Address"  required>
+        <br>
+        
+        <br>
+        <br>
+        <br>
+       <input type="submit"  value="Login"style=" width: 224px;
+        height: 64px;
+
+        text-align:center;
+         margin:-240px 40px 10px 30px; 
+         color: rgba(255, 255, 255, 0.281);
+         font-size: 2.5rem;cursor: pointer;
+         "  >
+        </form>
+    </div>
+</body>
+</html>
